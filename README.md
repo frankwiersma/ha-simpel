@@ -12,6 +12,10 @@ The integration logs in with your Mijn Simpel account and reads the same figures
 
 ### HACS
 
+[![Open your Home Assistant instance and open this repository in HACS.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=frankwiersma&repository=ha-simpel&category=integration)
+
+Click the button, install **Simpel** and restart Home Assistant. Or add it by hand:
+
 1. In HACS, open the menu (⋮) and choose **Custom repositories**.
 2. Add `https://github.com/frankwiersma/ha-simpel` with type **Integration**.
 3. Search for **Simpel**, install it and restart Home Assistant.
@@ -24,7 +28,9 @@ Home Assistant 2026.3 or newer is required.
 
 ## Setup
 
-Go to **Settings → Devices & services → Add integration → Simpel** and log in with the username and password you use on [mijn.simpel.nl](https://mijn.simpel.nl). The integration finds your subscription on its own.
+[![Open your Home Assistant instance and start setting up Simpel.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=simpel)
+
+Click the button, or go to **Settings → Devices & services → Add integration → Simpel**, and log in with the username and password you use on [mijn.simpel.nl](https://mijn.simpel.nl). The integration finds your subscription on its own.
 
 If you change your Simpel password, Home Assistant shows a repair notice and asks for the new one.
 
