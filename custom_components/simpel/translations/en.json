@@ -1,0 +1,72 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Mijn Simpel",
+        "description": "Log in with your Mijn Simpel account.",
+        "data": {
+          "username": "Username",
+          "password": "Password"
+        },
+        "data_description": {
+          "username": "The username you use on mijn.simpel.nl.",
+          "password": "Your Mijn Simpel password. It is stored in Home Assistant to log in again when the session expires."
+        }
+      },
+      "reauth_confirm": {
+        "title": "Mijn Simpel",
+        "description": "Simpel rejected the stored password for {username}. Enter the current one.",
+        "data": {
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Simpel rejected the username or password.",
+      "cannot_connect": "Could not reach Simpel."
+    },
+    "abort": {
+      "already_configured": "This subscription is already set up.",
+      "reauth_successful": "Password updated."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "data_remaining": {
+        "name": "Data remaining"
+      },
+      "data_used": {
+        "name": "Data used"
+      },
+      "data_bundle": {
+        "name": "Data bundle"
+      },
+      "data_per_day_left": {
+        "name": "Data per day left",
+        "unit_of_measurement": "MB/day"
+      },
+      "days_left": {
+        "name": "Days left"
+      },
+      "voice_remaining": {
+        "name": "Minutes remaining"
+      },
+      "voice_used": {
+        "name": "Minutes used"
+      },
+      "sms_remaining": {
+        "name": "SMS remaining",
+        "unit_of_measurement": "SMS"
+      },
+      "period_start": {
+        "name": "Billing period start"
+      },
+      "period_end": {
+        "name": "Billing period last day"
+      },
+      "data_updated": {
+        "name": "Data usage updated until"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "domain": "simpel",
+  "name": "Simpel",
+  "codeowners": [
+    "@frankwiersma"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/frankwiersma/ha-simpel",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/frankwiersma/ha-simpel/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}

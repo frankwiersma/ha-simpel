@@ -1,0 +1,39 @@
+{
+  "entity": {
+    "sensor": {
+      "data_remaining": {
+        "default": "mdi:web"
+      },
+      "data_used": {
+        "default": "mdi:web"
+      },
+      "data_bundle": {
+        "default": "mdi:web"
+      },
+      "data_per_day_left": {
+        "default": "mdi:calendar-today"
+      },
+      "days_left": {
+        "default": "mdi:calendar-clock"
+      },
+      "voice_remaining": {
+        "default": "mdi:phone"
+      },
+      "voice_used": {
+        "default": "mdi:phone"
+      },
+      "sms_remaining": {
+        "default": "mdi:message-text"
+      },
+      "period_start": {
+        "default": "mdi:calendar-start"
+      },
+      "period_end": {
+        "default": "mdi:calendar-end"
+      },
+      "data_updated": {
+        "default": "mdi:update"
+      }
+    }
+  }
+}

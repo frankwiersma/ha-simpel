@@ -1,0 +1,72 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Mijn Simpel",
+        "description": "Log in met je Mijn Simpel-account.",
+        "data": {
+          "username": "Gebruikersnaam",
+          "password": "Wachtwoord"
+        },
+        "data_description": {
+          "username": "De gebruikersnaam waarmee je inlogt op mijn.simpel.nl.",
+          "password": "Je Mijn Simpel-wachtwoord. Home Assistant bewaart het om opnieuw in te loggen als de sessie verloopt."
+        }
+      },
+      "reauth_confirm": {
+        "title": "Mijn Simpel",
+        "description": "Simpel accepteert het opgeslagen wachtwoord voor {username} niet meer. Vul het huidige in.",
+        "data": {
+          "password": "Wachtwoord"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Simpel accepteert deze gebruikersnaam of dit wachtwoord niet.",
+      "cannot_connect": "Simpel is niet bereikbaar."
+    },
+    "abort": {
+      "already_configured": "Dit abonnement is al ingesteld.",
+      "reauth_successful": "Wachtwoord bijgewerkt."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "data_remaining": {
+        "name": "Internet over"
+      },
+      "data_used": {
+        "name": "Internet verbruikt"
+      },
+      "data_bundle": {
+        "name": "Internetbundel"
+      },
+      "data_per_day_left": {
+        "name": "Internet per dag over",
+        "unit_of_measurement": "MB/dag"
+      },
+      "days_left": {
+        "name": "Dagen over"
+      },
+      "voice_remaining": {
+        "name": "Belminuten over"
+      },
+      "voice_used": {
+        "name": "Belminuten verbruikt"
+      },
+      "sms_remaining": {
+        "name": "Sms over",
+        "unit_of_measurement": "sms"
+      },
+      "period_start": {
+        "name": "Periode begin"
+      },
+      "period_end": {
+        "name": "Periode laatste dag"
+      },
+      "data_updated": {
+        "name": "Internet bijgewerkt tot"
+      }
+    }
+  }
+}
